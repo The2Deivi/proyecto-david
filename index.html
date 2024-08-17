@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="autor" content="David Durán">
     <meta name="description" content="No más de 165 caracteres">
-    <meta 
-        name="keywords" 
-        content="palabra clave 1, palabra clave2"
-    />
-    <meta name="theme-color" content="#09f"/>
+    <meta name="keywords" content="palabra clave 1, palabra clave2" />
+    <meta name="theme-color" content="#09f" />
     <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
     <!-- Iconos -->
-    <link 
-        href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
-        rel='stylesheet' 
-    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
 
     <title>Portafolio</title>
-    
+
 
     <link rel="icon" href="assets/img/logo.png" type="image/png">
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="module" src="assets/js/main.js" defer></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-              publicKey: "QTlQPFZvk1UHoliy5",
+                publicKey: "hSgGVTf6Fi09KHJwp",
             });
         })();
     </script>
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar grid--container flex--container">
@@ -47,31 +44,28 @@
             <div id="nav" class="navbar__menu">
                 <a href="#close"><i class="bx bx-x btn__close navbar__icon flex--container"></i></a>
 
-            <ul class="navbar__list flex--container">
-                <li class="navbar__item">
-                  <a href="#home" class="navbar__link active">Inicio</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__link">Acerca de Mí</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#skills" class="navbar__link">Habilidades</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#projects" class="navbar__link">Portafolio</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#contact" class="navbar__link">Contacto</a>
-                </li>  
-            </ul>
+                <ul class="navbar__list flex--container">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__link active">Inicio</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__link">Acerca de Mí</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#skills" class="navbar__link">Habilidades</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#projects" class="navbar__link">Portafolio</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#contact" class="navbar__link">Contacto</a>
+                    </li>
+                </ul>
             </div>
             <div class="navbar__toggles flex--container">
                 <div class="navbar__toggle--darkmode flex--container">
-                    <input 
-                        type="checkbox" 
-                        name="color-scheme" 
-                        id="darkmode-toggle" 
-                        class="navbar__toggle--darkmode-input"/>
+                    <input type="checkbox" name="color-scheme" id="darkmode-toggle"
+                        class="navbar__toggle--darkmode-input" />
 
                     <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
                         <i class="bx bxs-sun navbar__toggle--darkmode-sun"></i>
@@ -79,14 +73,9 @@
                     </label>
                 </div>
                 <div class="navbar__toggle--language flex--container">
-                    <input 
-                        type="checkbox" 
-                        id="language-toggle" 
-                        class="navbar__toggle--language-input"/>
+                    <input type="checkbox" id="language-toggle" class="navbar__toggle--language-input" />
 
-                    <label 
-                        for="language-toggle" 
-                        class="navbar__toggle--language-label">
+                    <label for="language-toggle" class="navbar__toggle--language-label">
                     </label>
                 </div>
             </div>
@@ -119,10 +108,7 @@
 
             <div class="home__container grid--container">
                 <div class="home__image">
-                    <img 
-                        src="assets/img/profile.png" 
-                        alt="profile photo" 
-                        title="Tu nombre">
+                    <img src="assets/img/profile.png" alt="profile photo" title="Tu nombre">
                 </div>
 
                 <ul class="home__social flex--container">
@@ -132,35 +118,26 @@
                         </a>
                     </li>
                     <li class="home__social-item">
-                        <a class="home__social-link" href="#" target="_blank"
-                            ><i class="bx bxl-whatsapp"></i
-                        ></a>
+                        <a class="home__social-link" href="#" target="_blank"><i class="bx bxl-whatsapp"></i></a>
                     </li>
                     <li class="home__social-item">
-                        <a class="home__social-link" href="#" target="_blank"
-                            ><i class="bx bxl-github"></i
-                        ></a>
+                        <a class="home__social-link" href="#" target="_blank"><i class="bx bxl-github"></i></a>
                     </li>
                     <li class="home__social-item">
-                        <a class="home__social-link" href="#" target="_blank"
-                            ><i class="bx bx-envelope"></i
-                        ></a>
+                        <a class="home__social-link" href="#" target="_blank"><i class="bx bx-envelope"></i></a>
                     </li>
                 </ul>
                 <div class="home__info">
                     <h1 class="home__title">Hey, soy David</h1>
 
                     <p class="home__description">
-                        Soy desarrollador web, apasionado por la tecnología y la programación, con un enfoque especial en la creación de experiencias digitales cautivadoras y funcionales.
+                        Soy desarrollador web, apasionado por la tecnología y la programación, con un enfoque especial
+                        en la creación de experiencias digitales cautivadoras y funcionales.
                     </p>
                 </div>
 
                 <div class="home__buttons">
-                    <a 
-                        class="btn btn--primary" 
-                        href="/assets/img/Me_D.jpeg"
-                        title="Descargar mi CV"
-                        download="my_cv"
+                    <a class="btn btn--primary" href="../assets/img/Me_D.jpeg" title="Descargar mi CV" download="my_cv"
                         rel="noreferrer nofollow">Descargar CV</a>
                 </div>
             </div>
@@ -170,34 +147,29 @@
 
             <div class="about__container grid--container">
                 <p class="about__description">
-                    Además de mi destreza técnica, también poseo habilidades excepcionales de resolución de problemas y comunicación, lo que me permite colaborar eficazmente en equipos multidisciplinarios y transmitir conceptos técnicos de manera clara y concisa a audiencias no técnicas.
+                    Además de mi destreza técnica, también poseo habilidades excepcionales de resolución de problemas y
+                    comunicación, lo que me permite colaborar eficazmente en equipos multidisciplinarios y transmitir
+                    conceptos técnicos de manera clara y concisa a audiencias no técnicas.
 
-                    En resumen, soy un profesional apasionado y dedicado que continúa elevando el estándar en el mundo de la tecnología y la programación, dejando una marca indeleble en cada proyecto en el que me embarco.
+                    En resumen, soy un profesional apasionado y dedicado que continúa elevando el estándar en el mundo
+                    de la tecnología y la programación, dejando una marca indeleble en cada proyecto en el que me
+                    embarco.
                 </p>
 
                 <div class="about__cards flex--container">
                     <!-- Card 1 -->
                     <div class="about__card">
-                        <img 
-                            class="about__card--img" 
-                            src="assets/img/me_1.jpg" 
-                            alt="Laborando como ingeniero"
+                        <img class="about__card--img" src="assets/img/me_1.jpg" alt="Laborando como ingeniero"
                             title="Laborando como ingeniero">
                     </div>
                     <!-- Card 2 -->
                     <div class="about__card">
-                        <img 
-                            class="about__card--img"
-                            src="assets/img/me_2.jpg" 
-                            alt="Laborando como diseñador"
+                        <img class="about__card--img" src="assets/img/me_2.jpg" alt="Laborando como diseñador"
                             title="Laborando como diseñador">
                     </div>
                     <!-- Card 3 -->
                     <div class="about__card">
-                        <img 
-                            class="about__card--img" 
-                            src="assets/img/me_3.jpg" 
-                            alt="Trabajando en equipo"
+                        <img class="about__card--img" src="assets/img/me_3.jpg" alt="Trabajando en equipo"
                             title="Trabajando en equipo">
                     </div>
                 </div>
@@ -208,7 +180,9 @@
 
             <div class="skills__container grid--container">
                 <p class="skills__description flex--container">
-                    Soy un entusiasta desarrollador web con un sólido dominio de las tecnologías de vanguardia en el desarrollo frontend, me dedico a dar vida a diseños creativos y atractivos con una combinación de HTML5, CSS3, JavaScript y React.
+                    Soy un entusiasta desarrollador web con un sólido dominio de las tecnologías de vanguardia en el
+                    desarrollo frontend, me dedico a dar vida a diseños creativos y atractivos con una combinación de
+                    HTML5, CSS3, JavaScript y React.
                 </p>
 
                 <div class="skills__wrapper flex--container">
@@ -222,7 +196,9 @@
                                 <h3 class="skills__card-title">HTML</h3>
 
                                 <p class="skills__card-description">
-                                    Con habilidades expertas en HTML5, estructuro el contenido de manera semántica y accesible, optimizando así la visibilidad en los motores de búsqueda y la experiencia para los usuarios.
+                                    Con habilidades expertas en HTML5, estructuro el contenido de manera semántica y
+                                    accesible, optimizando así la visibilidad en los motores de búsqueda y la
+                                    experiencia para los usuarios.
                                 </p>
                             </div>
                         </details>
@@ -236,7 +212,9 @@
 
                                 <p class="skills__card-description">
 
-                                    Mi destreza en CSS3 me permite diseñar interfaces web elegantes y receptivas, utilizando técnicas avanzadas de diseño y animación para crear experiencias visuales memorables.
+                                    Mi destreza en CSS3 me permite diseñar interfaces web elegantes y receptivas,
+                                    utilizando técnicas avanzadas de diseño y animación para crear experiencias visuales
+                                    memorables.
                                 </p>
                             </div>
                         </details>
@@ -249,7 +227,9 @@
                                 <h3 class="skills__card-title">Javascript</h3>
 
                                 <p class="skills__card-description">
-                                    Como amante del desarrollo frontend, utilizo JavaScript para agregar interactividad y dinamismo a mis proyectos, desde la manipulación del DOM hasta la gestión de eventos del usuario y las solicitudes asíncronas.
+                                    Como amante del desarrollo frontend, utilizo JavaScript para agregar interactividad
+                                    y dinamismo a mis proyectos, desde la manipulación del DOM hasta la gestión de
+                                    eventos del usuario y las solicitudes asíncronas.
                                 </p>
                             </div>
                         </details>
@@ -262,7 +242,10 @@
                                 <h3 class="skills__card-title">React</h3>
 
                                 <p class="skills__card-description">
-                                    Como un apasionado defensor de React, construyo aplicaciones web modernas y escalables utilizando esta potente biblioteca de JavaScript. Desde la creación de componentes reutilizables hasta la gestión del estado de la aplicación, puedo llevar tus ideas desde el concepto inicial hasta la implementación final con React.
+                                    Como un apasionado defensor de React, construyo aplicaciones web modernas y
+                                    escalables utilizando esta potente biblioteca de JavaScript. Desde la creación de
+                                    componentes reutilizables hasta la gestión del estado de la aplicación, puedo llevar
+                                    tus ideas desde el concepto inicial hasta la implementación final con React.
                                 </p>
                             </div>
                         </details>
@@ -288,16 +271,15 @@
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="projects__image">
-                            <img 
-                                src="assets/img/project1.jpg" 
-                                alt="project 1"
-                                title="Ecommerce Vanilla">
+                            <img src="assets/img/project1.jpg" alt="project 1" title="Ecommerce Vanilla">
                         </div>
 
                         <div class="projects__info">
                             <h3 class="projects__name">Proyecto 1</h3>
                             <p class="projects__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptas velit cumque veniam, magni tenetur dolore nisi eius, minus consequatur sit ab quibusdam! Sint, cum quia temporibus omnis officia corrupti.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptas velit
+                                cumque veniam, magni tenetur dolore nisi eius, minus consequatur sit ab quibusdam! Sint,
+                                cum quia temporibus omnis officia corrupti.
                             </p>
 
                             <div class="projects__buttons">
@@ -311,9 +293,7 @@
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="projects__image">
-                            <img 
-                                src="assets/img/project2.png" 
-                                alt="project 1"
+                            <img src="assets/img/project2.png" alt="project 1"
                                 title="Consumiendo API Pokemon con React">
                         </div>
 
@@ -322,7 +302,7 @@
                             <p class="projects__description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quia blanditiis dolor.
                             </p>
-                            
+
                             <div class="projects__buttons">
                                 <button class="btn projects__button" type="button">
                                     VER DEMO
@@ -338,10 +318,7 @@
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="projects__image">
-                            <img 
-                                src="assets/img/project3.jpg" 
-                                alt="project 1"
-                                title="CRUD con React">
+                            <img src="assets/img/project3.jpg" alt="project 1" title="CRUD con React">
                         </div>
 
                         <div class="projects__info">
@@ -364,10 +341,7 @@
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="projects__image">
-                            <img 
-                                src="assets/img/project4.png" 
-                                alt="project 1"
-                                title="Aplicacióndel tiempo con React">
+                            <img src="assets/img/project4.png" alt="project 1" title="Aplicacióndel tiempo con React">
                         </div>
 
                         <div class="projects__info">
@@ -405,9 +379,7 @@
                             <i class="bx bxl-whatsapp"></i>
 
                             <span class="contact__info-number">
-                                <a 
-                                    href="https://wa.me/+573002404098?text=Tu%20Mensaje%20De%20Texto"
-                                    target="_blank"
+                                <a href="https://wa.me/+573002404098?text=Tu%20Mensaje%20De%20Texto" target="_blank"
                                     rel="noreferrer nofollow">Enviar mensaje a WhatsApp</a>
                             </span>
                         </div>
@@ -416,11 +388,7 @@
                             <i class="bx bx-phone"></i>
 
                             <span class="contact__info-number">
-                                <a
-                                    href="tel:1-234-567-8910"
-                                    target="_blank"
-                                    rel="noreferrer nofollow"
-                                >
+                                <a href="tel:1-234-567-8910" target="_blank" rel="noreferrer nofollow">
                                     +57 300 240 4098
                                 </a>
                             </span>
@@ -430,12 +398,7 @@
                             <i class="bx bxs-envelope"></i>
 
                             <span class="contact__info-mail">
-                                <a
-                                    id="mail"
-                                    href="mailto:test@correo.com"
-                                    target="_blank"
-                                    rel="noreferrer nofollow"
-                                >
+                                <a id="mail" href="mailto:test@correo.com" target="_blank" rel="noreferrer nofollow">
                                     davidduranc18@gmail.com
                                 </a>
                             </span>
@@ -453,47 +416,26 @@
                     <form id="form" class="contact__form-container">
                         <div class="contact__form-group">
                             <label for="name" class="contact__form-label">Nombre</label>
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                class="contact__form-input"
-                                placeholder="Nombre Completo"
-                            />
+                            <input type="text" id="name" name="name" class="contact__form-input"
+                                placeholder="Nombre Completo" />
                         </div>
 
                         <div class="contact__form-group">
                             <label for="email" class="contact__form-label">Correo</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                class="contact__form-input"
-                                placeholder="ejemplo@email.com"
-                            />
+                            <input type="email" id="email" name="email" class="contact__form-input"
+                                placeholder="ejemplo@email.com" />
                         </div>
 
                         <div class="contact__form-group">
                             <label for="subject" class="contact__form-label">Asunto</label>
-                            <input
-                                type="text"
-                                id="subject"
-                                name="subject"
-                                class="contact__form-input"
-                                placeholder="Tema..."
-                            />
+                            <input type="text" id="subject" name="subject" class="contact__form-input"
+                                placeholder="Tema..." />
                         </div>
 
                         <div class="contact__form-group">
                             <label for="message" class="contact__form-label">Mensaje</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                cols="30"
-                                rows="10"
-                                class="contact__form-input"
-                                placeholder="Tu Mensaje ..."
-                            ></textarea>
+                            <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"
+                                placeholder="Tu Mensaje ..."></textarea>
                         </div>
                         <dialog id="modal">
                             Formulario enviado con éxito!
@@ -504,7 +446,7 @@
                             Enviar
                         </button>
                     </form>
-                </div>            
+                </div>
             </div>
         </section>
     </main>
@@ -522,43 +464,23 @@
 
                 <ul class="footer__social-list">
                     <li class="footer__social-item">
-                        <a
-                            class="footer__social-link"
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer nofollow"
-                            ><i class="bx bxl-facebook"></i
-                        ></a>
+                        <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                                class="bx bxl-facebook"></i></a>
                     </li>
 
                     <li class="footer__social-item">
-                        <a
-                            class="footer__social-link"
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer nofollow"
-                            ><i class="bx bxl-instagram"></i
-                        ></a>
+                        <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                                class="bx bxl-instagram"></i></a>
                     </li>
 
                     <li class="footer__social-item">
-                        <a
-                            class="footer__social-link"
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer nofollow"
-                            ><i class="bx bxl-twitter"></i
-                        ></a>
+                        <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                                class="bx bxl-twitter"></i></a>
                     </li>
 
                     <li class="footer__social-item">
-                        <a
-                            class="footer__social-link"
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer nofollow"
-                            ><i class="bx bxl-linkedin"></i
-                        ></a>
+                        <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                                class="bx bxl-linkedin"></i></a>
                     </li>
                 </ul>
             </div>
@@ -567,4 +489,5 @@
         <p class="footer__copy"></p>
     </footer>
 </body>
+
 </html>
